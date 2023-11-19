@@ -1,0 +1,66 @@
+.bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.list-item {
+  list-style: none;
+  display: row;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji {
+  height: 100px;
+}
+.status {
+  text-align: center;
+}
+.button {
+  border-width: 0px;
+  background-color: #fff;
+}
+
+.love-emoji {
+  height: 60px;
+}
+
+.upper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  font-family: 'roboto';
+}
